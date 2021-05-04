@@ -24,7 +24,7 @@ variable "gcp_project_name" {
 
 variable "gcp_zone" {
     type = string
-    description = "Zone"
+    description = "GCP Zone"
     default = "europe-west1-b"
 }
 
