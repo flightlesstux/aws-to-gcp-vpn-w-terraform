@@ -48,9 +48,12 @@ Export your AWS Access Key ID and Secret Access Key for create a resource in you
 Edit values for `variables.tf` 
 
 - Step 7:\
-`terraform init`
+Set your terraform state bucket via `state.tf` file. You can use AWS S3 or Google Cloud Storage.
 
 - Step 8:\
+`terraform init`
+
+- Step 9:\
 `terraform apply` or `terraform apply -auto-approve`
 
 ## Terraform Requirements
