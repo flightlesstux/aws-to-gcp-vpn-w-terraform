@@ -6,7 +6,7 @@ Creating a Customer Gateway on AWS.
 Creating a Virtual Private Gateway on AWS.
 Creating a Site-to-Site VPN Connection on AWS.
 Creating a Security Group for VPN connection access on AWS.
-Creating a External IP address for VPN connection on GCP.
+Creating an External IP address for VPN connection on GCP.
 Creating a Managing the firewall rule for VPN connection on GCP.
 Creating a Route rule on GCP.
 
