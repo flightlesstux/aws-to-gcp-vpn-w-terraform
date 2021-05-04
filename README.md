@@ -106,11 +106,11 @@ No modules.
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | AWS Region | `string` | `"eu-central-1"` | yes |
 | <a name="input_aws_vpc_id"></a> [aws\_vpc\_id](#input\_aws\_vpc\_id) | AWS VPC ID | `string` | `"vpc-123a5b57"` | yes |
 | <a name="input_gcp_network"></a> [gcp\_network](#input\_gcp\_network) | GCP Network Name | `string` | `"my-network"` | yes |
+| <a name="input_gcp_subnet"></a> [gcp\_subnet](#input\_gcp\_subnet) | GCP Network Subnet Name | `string` | `"private-network"` | yes |
 | <a name="input_gcp_project"></a> [gcp\_project](#input\_gcp\_project) | GCP Project ID | `string` | `"0123456789012"` | yes |
 | <a name="input_gcp_project_name"></a> [gcp\_project\_name](#input\_gcp\_project\_name) | GCP Project Name | `string` | `"hello-baby"` | yes |
 | <a name="input_gcp_region"></a> [gcp\_region](#input\_gcp\_region) | GCP Region | `string` | `"europe-west1"` | yes |
-| <a name="input_gcp_subnet"></a> [gcp\_subnet](#input\_gcp\_subnet) | GCP Network Subnet Name | `string` | `"private-network"` | yes |
-| <a name="input_gcp_zone"></a> [gcp\_zone](#input\_gcp\_zone) | Zone | `string` | `"europe-west1-b"` | yes |
+| <a name="input_gcp_zone"></a> [gcp\_zone](#input\_gcp\_zone) | GCP Zone | `string` | `"europe-west1-b"` | yes |
 
 ## Outputs
 
