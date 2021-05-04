@@ -14,8 +14,8 @@ Creating a Route rule on GCP.
 ## Requirements
 
 - [Enable Compute Engine API](https://console.cloud.google.com/marketplace/product/google/compute.googleapis.com) if doesn't enable.
-- [Create Service account](https://console.cloud.google.com/iam-admin/serviceaccounts) with `Editor` role (or whatever you want) and export the key file.
-- [Create Cloud Google Storage Bucket](https://console.cloud.google.com/storage/create-bucket) for keep the terraform state. If you want, you can add your service account as a member to bucket OR [Create S3 Bucket](https://s3.console.aws.amazon.com/s3/bucket/create?region=eu-central-1) for keep the terraform state.
+- [Create a Service account](https://console.cloud.google.com/iam-admin/serviceaccounts) with `Editor` role (or whatever you want) and export the key file.
+- [Create Cloud Google Storage Bucket](https://console.cloud.google.com/storage/create-bucket) to keep the terraform state. If you want, you can add your service account as a member to bucket OR [Create S3 Bucket](https://s3.console.aws.amazon.com/s3/bucket/create?region=eu-central-1) for to the terraform state.
 - Check your [IAM Permissions](https://console.aws.amazon.com/iam/home) on AWS side.
 
 ## Usage
@@ -39,21 +39,21 @@ Project ID is also declared via terraform but if you don't export the value, you
 │    1: resource "google_compute_instance_group_manager" "this" {
 ```
 
-- Step 5:\
+- Step 4:\
 `AWS_ACCESS_KEY_ID=AKIA1SFAESADASFASR5D`\
 `AWS_SECRET_ACCESS_KEY=Aasdfiajfar1O9DFASDAA3rasdas02304adsq9re`\
 Export your AWS Access Key ID and Secret Access Key for create a resource in your AWS Region.
 
-- Step 6:\
+- Step 5:\
 Edit values for `variables.tf` 
 
-- Step 7:\
+- Step 6:\
 Set your terraform state bucket via `state.tf` file. You can use AWS S3 or Google Cloud Storage.
 
-- Step 8:\
+- Step 7:\
 `terraform init`
 
-- Step 9:\
+- Step 8:\
 `terraform apply` or `terraform apply -auto-approve`
 
 ## Terraform Requirements
